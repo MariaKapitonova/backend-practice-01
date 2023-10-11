@@ -1,0 +1,17 @@
+{
+  "name": "backend-practice-01",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist",
+    "dev": "tsc && node ./dist"
+  },
+  "author": "Maria",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.31.17",
+    "fastify": "4.23.2"
+  }
+}
